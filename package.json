@@ -1,0 +1,33 @@
+{
+  "name": "pionta-park",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Pionta park website",
+  "main": "index.js",
+  "private": true,
+  "keywords": [
+    "Arezzo",
+    "park"
+  ],
+  "scripts": {
+    "dev": "flareact dev",
+    "build": "flareact build",
+    "deploy": "flareact publish",
+    "format": "prettier --config ./config/prettier.cjs --write {components,pages}/**/*.{js,jsx}",
+    "nuke": "rm -rf node_modules package-lock.json"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.2",
+    "autoprefixer": "^10.4.7",
+    "flareact": "^1.5.0",
+    "postcss": "^8.4.14",
+    "react": "^17.0.0",
+    "react-calendar": "^3.7.0",
+    "react-dom": "^17.0.0",
+    "tailwindcss": "^3.0.24"
+  },
+  "devDependencies": {
+    "@cloudflare/wrangler": "^1.19.12",
+    "prettier": "^2.0.5"
+  }
+}

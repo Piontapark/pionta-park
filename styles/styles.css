@@ -1,0 +1,19 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/* ATTENTION
+ * This file can be use to extend Tailwind CSS with custom styles, but in my
+ * opinion is better to avoid writing CSS here, and extend Tailwind styles in
+ * the tailwind.config.js file instead.
+ * Use this file only for quick experiments, then move them to
+ * tailwind.config.js to avoid storing configuration in 2 different files.
+ */
+
+/* @layer base {} */
+
+/* @layer components {} */
+
+/* @layer utilities {} */
