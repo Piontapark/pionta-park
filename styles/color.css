@@ -1,0 +1,27 @@
+:root {
+  /* Actual color names: use them only in THIS file. ------------------------ */
+  /* Check the colors here: */
+  /* https://www.colorhexa.com */
+  /* https://encycolorpedia.com */
+  /* https://htmlcolorcodes.com/colors/ */
+
+  --color-alabaster: #f2f0e6;
+  --color-american-green: #34b334;
+  --color-apple: #66b447;
+  --color-bone: #e3dac9;
+  --color-byzantium: #702963;
+  --color-gray20: #333333;
+  --color-pionta-green: #129343;
+  --color-salamander: #f05e23;
+  --color-slategray: #708090;
+  --color-venetian-red: #c80815;
+  --color-white: #fff;
+
+  /* Website color names: use these ones for styling and themes ------------- */
+  --color-accent: var(--color-venetian-red);
+  --color-background: var(--color-bone);
+  --color-headings: var(--color-pionta-green);
+  --color-logo: var(--color-white);
+  --color-slider: var(--color-pionta-green);
+  --color-text: var(--color-gray20);
+}

@@ -1,0 +1,127 @@
+/* Layout primitives
+ * 
+ * Exceptions for a layout primitive are set via data attributes.
+ * E.g.
+ * <ul class="cluster" data-align="start"></ul>
+ */
+
+/* Box layout
+ *
+ * https://every-layout.dev/layouts/box/
+ */
+.box {
+  padding: var(--s0, 1em);
+}
+
+/* Cluster layout
+ *
+ * https://every-layout.dev/layouts/cluster/
+ */
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 45rem; */
+  margin: 0 auto;
+  gap: var(--cluster-gap, 1ch);
+}
+
+.cluster > * {
+  --cluster-spacing: 0.05em;
+  margin: var(--cluster-spacing);
+}
+
+.cluster[data-align='start'] {
+  justify-content: flex-start;
+  margin-left: 0;
+}
+
+.cluster[data-align='end'] {
+  justify-content: flex-end;
+  margin-right: 0;
+}
+
+/* Flow layout (aka Stack layout)
+ *
+ * https://piccalil.li/quick-tip/flow-utility/
+ * https://cube.fyi/composition.html#examples
+ * https://every-layout.dev/layouts/stack/
+ */
+.flow > * + * {
+  margin-top: var(--flow-space, 1em);
+}
+
+.flow-horizontal > * + * {
+  margin-left: var(--flow-space, 1em);
+}
+
+/* Frame layout
+ *
+ * https://every-layout.dev/layouts/frame/
+ */
+.frame {
+  --aspect-ratio: 16 / 9;
+
+  aspect-ratio: var(--aspect-ratio);
+}
+
+.frame > img {
+  block-size: 100%;
+  inline-size: 100%;
+  object-fit: cover;
+}
+
+/* Icon layout
+ *
+ * https://every-layout.dev/layouts/icon/
+ */
+.icon {
+  /* many browsers still do not support the cap unit, that's why I am defining a
+  em unit as the first value */
+  /* https://drafts.csswg.org/css-values/#cap */
+  /* height: 0.75em; */
+  height: 2em;
+  /* height: 1cap; */
+
+  /* width: 0.75em; */
+  width: 2em;
+  /* width: 1cap; */
+  /* vertical-align: baseline; */
+  /* vertical-align: middle; */
+  vertical-align: -0.5em;
+}
+
+.region {
+  padding: var(--region-space, 1em) 0;
+}
+
+.wrapper {
+  --max-width: 50rem;
+
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 95vw;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+
+  /* some browsers still don't support clamp() and will keep the first value */
+  /* https://caniuse.com/?search=clamp */
+  width: var(--max-width);
+  width: clamp(16rem, 95vw, var(--max-width));
+
+  position: relative;
+}
+
+article {
+  --flow-space: 3em;
+}
+
+article > * {
+  --flow-space: 1em;
+}
+
+/* all SVG used as icons must be inline */
+svg.icon {
+  display: inline;
+}

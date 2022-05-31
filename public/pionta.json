@@ -1,0 +1,56 @@
+{
+  "cards": [
+    {
+      "title": "Storia",
+      "description": "Il Pionta è uno dei colli su cui è nata la città di Arezzo, la sua storia è infatti molto antica come dimostrano gli scavi archeologici etruschi-romani che vi si trovano; vanta inoltre un’antica vocazione come luogo di studi eruditi fin dai Longobardi.Probabilmente fu in epoca carolingia, con il consolidamento del potere dei vescovi aretini, che il Pionta si dotò di mura fortificate ed intorno al 1000 qui viene realizzato il Tempio di San Donato. Dal XVI secolo,però, il Colle del Pionta perse progressivamente l’influenza sulla città di Arezzo fino a un ritorno a una configurazione genericamente agricola e marginale rispetto alla città, maggiormente segnata poi dalla costruzione della linea ferroviaria nella seconda metà dell’Ottocento. Nel 1896 venne deciso di costruire un manicomio, realizzato nei primi del ‘900 ad opera di numerosi progettisti che ha visto la sua chiusura nel 1978 a seguito della Legge Basaglia.",
+      "images": [
+        {
+          "src": "./images/storia-01.jpg",
+          "alt": "alternative storia-01"
+        },
+        { "src": "./images/storia-02.png", "alt": "alternative storia-02" }
+      ]
+    },
+    {
+      "title": "Cultura",
+      "description": "La componente sociale dell’area è piuttosto articolata in quanto sede di numerosi servizi: Università, Ospedale. La presenza dell’università ha permesso un flusso di persone tra studenti e servizio scolastico, mentre l’ospedale San Donato, costruito negli anni ‘70, è diventato polo di numerosi servizi correlati. Essendo un’area a cerniera tra i quartieri di Saione e Pescaiola, in gran parte popolati da popolazione di origine straniera, è in parte attraversata da popolazione di diversa nazionalità. Il Parco è quindi un luogo di vita, di studio, di cura, di svago, un luogo da amare, vivere, tutelare, difendere che tiene in sè la cultura di tutta la città. La sua storia sia di un passato erudita, sia di un luogo della \"follia\", essendo sede dell'ex OP della città, ne hanno segnato e tuttora segnano la sua identità.",
+      "images": [
+        {
+          "src": "./images/cultura-01.jpg",
+          "alt": "alternative cultura-01"
+        },
+        { "src": "./images/cultura-02.jpg", "alt": "alternative cultura-02" },
+        { "src": "./images/cultura-03.png", "alt": "alternative cultura-03" }
+      ]
+    },
+    {
+      "title": "Educazione",
+      "description": "È sede del campus dell'Università di Siena, Dipartimento di Scienze Sociali, Politiche e Cognitive; l’area è quella dell’ex Ospedale psichiatrico. Le palazzine del manicomio sono state recuperate dall’Ateneo senese che al Pionta ha creato un moderno e funzionale campus, dove gli studenti possono trovare tutte le strutture ed i servizi per vivere e studiare nel modo migliore: aule, laboratori, spazi per incontrarsi e confrontarsi con i professori, la biblioteca e CampusLab, struttura per spazi laboratoriali di esperienze di apprendimento partecipato e integrato con il mondo del lavoro. Nella palazzina dell’Orologio si trovano l’ufficio Studenti e Didattica, il settore Ricerca e alcuni servizi generali. Le aule, i laboratori, gli studi dei docenti e le aule dedicate agli studenti sono invece nelle ex palazzine “Uomini”, “Donne” e “Ram” in cui ha sede anche la Biblioteca.",
+      "images": [
+        {
+          "src": "./images/educazione-01.jpg",
+          "alt": "alternative educazione-01"
+        },
+        {
+          "src": "./images/educazione-02.jpg",
+          "alt": "alternative educazione-02"
+        }
+      ]
+    },
+    {
+      "title": "Natura",
+      "description": "Il Colle di Pionta è morfologicamente ovoidale e si innalza a circa 300 metri di quota. Il terreno è costituito, almeno in superficie, da tufo: un materiale quanto mai adatto ad ospitare tombe e loculi per sepolture. Si trova nell’area suburbana della città, punto residuale ed interstiziale, stretta tra la barriera della struttura ferroviaria, che la divide dal centro cittadino e il traffico veicolare. Fa da cerniera ai quartieri multietnici e popolari di Saione e Pescaiola, ed include anche San Donato con l’ospedale.  E' un enorme polmone verde cittadino di 12 ettari che presenta numerose specie arboree quali ad esempio Cipressi, Pini domestici, Olivi e molti altri.",
+      "images": [
+        { "src": "./images/verde-01.jpg", "alt": "alternative verde-01" },
+        { "src": "./images/verde-02.jpg", "alt": "alternative verde-02" }
+      ]
+    }
+  ],
+  "links": {
+    "facebook": "https://www.facebook.com/groups/1334626397046150",
+    "instagram": "https://www.instagram.com/piontapark/",
+    "spotify_piontacast_2051": "https://open.spotify.com/show/3rowp10KPdB20Q64MbFqvP?si=d1d5574f6d4e4613&nd=1",
+    "spotify_tetti_rossi": "https://open.spotify.com/show/1sCagrw6w9ZcC783DuXH7W?si=f1ea6a803d9b4183&nd=1",
+    "youtube": "https://www.youtube.com/channel/UCx9Qyn0vqBa9ivoTXxH0xvA/playlists"
+  }
+}

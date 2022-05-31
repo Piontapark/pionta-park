@@ -1,0 +1,20 @@
+.iframe__container {
+  --min-width: 10rem;
+  --max-width: 100%;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  /* some browsers still don't support clamp() and will keep the first value */
+  /* https://caniuse.com/?search=clamp */
+  width: var(--max-width);
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/clamp */
+  width: clamp(var(--min-width), 95vw, var(--max-width));
+}
+
+.iframe__container > iframe {
+  /* border: 0.25rem solid #f00; */
+  border-width: 0;
+  height: 30rem;
+  width: 100%;
+}

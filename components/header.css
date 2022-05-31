@@ -1,0 +1,21 @@
+.header {
+  --color-headings: var(--color-white);
+
+  background-color: var(--color-pionta-green);
+}
+
+.header a:hover {
+  text-decoration: underline solid var(--color-white) 0.35rem;
+}
+
+.header a[data-section='Cultura']:hover {
+  text-decoration: underline solid var(--color-byzantium) 0.35rem;
+}
+
+.header a[data-section='Educazione']:hover {
+  text-decoration: underline solid var(--color-salamander) 0.35rem;
+}
+
+.header a[data-section='Storia']:hover {
+  text-decoration: underline solid var(--color-venetian-red) 0.35rem;
+}

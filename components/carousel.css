@@ -1,0 +1,56 @@
+.carousel {
+  --border-radius: 0.5rem;
+  --flow-space: 1rem;
+
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel::-webkit-scrollbar {
+  height: 0.75rem;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+  background: var(--color-slider);
+  border-radius: var(--border-radius);
+}
+
+.carousel::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.carousel__item {
+  display: flex;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+
+  /* we set max-width 100% so a child element (an image) can be as wide as this
+  container, but not wider. In alternative we could set max-width to 85% or 90%,
+  to let the next child (i.e. image) show up, otherwise the user might think
+  that he is not supposed to scroll */
+  max-width: 100%;
+
+  /* transform-origin: center center; */
+  /* border-radius: var(--border-radius); */
+
+  /* transform: scale(1); */
+  /* transition: transform 0.5s; */
+
+  overflow: hidden;
+}
+
+.carousel__img {
+  border-radius: var(--border-radius);
+  object-fit: cover;
+  height: 20rem;
+
+  width: 100%;
+}
+
+@media only screen and (min-width: 640px) {
+  .carousel__img {
+    height: 30rem;
+  }
+}
