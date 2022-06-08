@@ -71,7 +71,7 @@ export default function Index() {
             )
           })}
           {/* <Stats /> */}
-          <Contacts email={'piontapark@gmail.com'} />
+          <Contacts email={pionta.email} />
         </div>
       </main>
       <Footer
